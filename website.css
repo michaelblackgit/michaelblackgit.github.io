@@ -49,8 +49,18 @@ img {
 .small-icon {
   color: white;
   font-size: 92px !important;
+  text-decoration: none !important;
 }
 
 body {
   font-size: 25px;
+}
+
+a:focus {
+  color: white;
+  outline: none; 
+}
+
+a:hover {
+  color: black;
 }
